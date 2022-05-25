@@ -66,7 +66,7 @@
                         </div>
                     </form>
                 </div>
-                <a href="/cliente" class ="">Acceso pagina cliente</a> 
+                <a href="{{route('cliente')}}" class ="">Acceso pagina cliente</a> 
             </div>
         </div>
     </div>

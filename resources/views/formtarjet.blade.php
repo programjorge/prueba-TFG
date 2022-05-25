@@ -6,7 +6,7 @@
         @csrf
         <div class = "inputs">
             <label class = "form-label">Nombre: </label>
-            <input type="text" value = "" name = "nombre" class = "form-control">
+            <input type="text" value = "" name = "nombre" class = "form-control" required>
         </div>
         <div class = "inputs">
             <label class = "form-label">especializacion: </label>
@@ -20,19 +20,19 @@
         </div>
         <div class = "inputs">
             <label class = "form-label">Telefono oficina: </label>
-            <input type="text" value = "" name = "Toficina" class = "form-control">
+            <input type="text" value = "" name = "Toficina" class = "form-control"required>
         </div>
         <div class = "inputs">
             <label class = "form-label">Telefono movil: </label>
-            <input type="text" value = "" name = "Tmovil" class = "form-control">
+            <input type="text" value = "" name = "Tmovil" class = "form-control"required>
         </div>
         <div class = "inputs">
             <label class = "form-label">email: </label>
-            <input type="text" value = "" name = "email" class = "form-control">
+            <input type="text" value = "" name = "email" class = "form-control"required>
         </div>
         <div class = "inputs">
             <label class = "form-label">Colegio de abogados: </label>
-            <input type="text" value = "" name = "colegio" class = "form-control">
+            <input type="text" value = "" name = "colegio" class = "form-control"required>
         </div>
         <div class = "inputs mt-3"><button class = " btn btn-outline-light">Generar</button></div>
         

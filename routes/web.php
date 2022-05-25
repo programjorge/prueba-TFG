@@ -64,4 +64,4 @@ route::post('load-form', [App\Http\Controllers\clienteController::class, 'client
 
 //controller calendario
 Route::get('/home/calendario/{mes}',[App\Http\Controllers\calendarioController::class, 'index_month']);
-Route::get('/home/calendario',[App\Http\Controllers\calendarioController::class, 'index']);
+Route::get('/home/calendario',[App\Http\Controllers\calendarioController::class, 'index'])->middleware('auth')->name('calendario');
