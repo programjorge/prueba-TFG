@@ -1,0 +1,388 @@
+.submenu{
+    margin: 20px;
+    color: white;
+}
+.nav-link {
+    color:white !important;
+    border-bottom: 3px solid  #005b88;
+    font-size: large;
+}
+tbody, td, tfoot, th, thead, tr {
+    border-color: inherit;
+    border-style: solid;
+    border-width: 0;
+    margin: auto;
+}
+.nav-link:hover{
+    border-bottom: 3px solid white;
+}
+.logo{
+
+    position: relative;
+    top: -40px;
+    right: 50px;
+    border-radius: 8px;
+    width: 220px;
+    height: 220px;
+}
+.logoD{
+    margin-left: 20%;
+}
+.bagon{
+    height: 300px;
+    background-image: url("https://englishlive.ef.com/es-mx/blog/wp-content/uploads/sites/8/2018/09/Aprende-t%C3%A9rminos-legales-en-ingl%C3%A9s-para-abogados.jpg");
+    background-size: cover;
+}
+.bagon2{
+    height: 300px;
+    background-image: url("https://i0.wp.com/miguelrivasespana.es/wp-content/uploads/2018/03/Harvey-Specter-abogado.jpg?fit=700%2C450&ssl=1");
+    background-size: cover;
+}
+.bagon3{
+    height: 300px;
+    background-image: url("https://mexico.unir.net/wp-content/uploads/sites/6/2021/02/peliculas-abogados-derecho.jpg");
+    background-size: cover;
+}
+.menu{
+    
+    background-color: #005b88;
+}
+.div-delitos{
+    overflow: hidden;
+    color:#005b88;
+    height: 50px;
+    transition: 0.5s ease all;
+}
+.text-del{
+    position: relative;
+    top:-220px;
+    transition: 0.5s;
+    z-index: 2 !important;
+
+}
+.anim-del:hover>.div-delitos>.text-del{
+    top:0;
+    transition: 0.5s;
+    z-index: 5 !important;
+}
+.anim-del:hover>.div-delitos{
+    height: 260px;
+    transition: 0.5s ease all;
+}
+.intro-serv{
+    font-weight: bold;
+    color: #005b88;
+}
+.delitos{
+    background-color: #005b88;
+    position: relative;
+    color: white;
+    text-align: center;
+    z-index: 5 !important;
+}
+.boxes{
+    color: #005b88;
+    width: 50px;
+    height: 50px;
+}
+.text-serv{
+    color: #005b88;
+}
+body{
+    margin:0;
+}
+.carousel-inner{
+    margin-top: 100px;
+    width: 100%;
+}
+.azul{
+    width: 100%;
+    height: 600px;
+    background-image: url("https://www.soloabogados.es/wp-content/uploads/2016/11/soloabogados-fondo1.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.amarillo{
+    width: 100%;
+    height: 600px;
+    background-image: url("https://www.helvetia.es/sites/default/files/styles/helvetia_1360_x_450/public/2018-08/seguro-de-oficinas-y-despachos-helvetia-seguros.jpg?h=82aa12a6&itok=kIjeBkCK");
+    background-size: cover;
+    background-position: center;
+}
+.img-nosotros{
+    width: 100%;
+    height: 600px;
+    background-image: url("https://static.wixstatic.com/media/fa4496_3c292393093c43cba068c5061239b379~mv2.png/v1/fill/w_800,h_600,al_c/fa4496_3c292393093c43cba068c5061239b379~mv2.png");
+    background-size:cover;
+    background-position: center;
+}
+.main{
+    width: 98%;
+    margin: 1%;
+    height: 400px;
+    border-radius: 13px;
+    background-color: white;
+    background-size:cover;
+    background-position: center;
+    /* background-image: url("https://www.iagua.es/sites/default/files/styles/thumbnail-830x455/public/tribunal-supremo.jpg?itok=keKJnJm-");*/
+}
+.imagen1{
+    /* width: 100%; */
+    background-image: url("https://previews.123rf.com/images/andreyuu/andreyuu1210/andreyuu121000102/15548828-se%C3%B1ora-de-justicia-sobre-fondo-blanco.jpg");
+    height: 400px;
+    background-size: cover;
+    border-radius: 13px;
+}
+.imagen2{
+    /* width: 100%; */
+
+    background-image: url("https://previews.123rf.com/images/andreyuu/andreyuu1210/andreyuu121000102/15548828-se%C3%B1ora-de-justicia-sobre-fondo-blanco.jpg");
+    height: 400px;
+    background-size: cover;
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+    border-radius: 13px;
+}
+.intro{
+    background-color: white;
+}
+.titulo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+.texto{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 400px;
+    padding-top: 15px;
+    color: #005b88;
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 0);
+}
+.intro:hover>.texto>.boton{
+    
+    left: 0;
+    transition: 0.7s ;
+    cursor: pointer;
+}
+.contactame{
+    display: flex;
+    flex-direction: row;
+}
+form{
+    background-color: #005b88;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+}
+input{
+    
+    border-radius: 8px;
+    /* border-color: #005b88; */
+    border: 3px solid #202e55;
+    text-align: center;
+    margin: 15px 0px;
+    padding: 10px;
+    width: 350px;
+    color: #005b88;
+}
+button{
+    background-color:#202e55;
+    color: white;
+    border: none;
+    margin-top: 15px;
+    padding: 10px;
+    width: 150px;
+    border-radius: 10px;
+}
+button:hover{
+    background-color: white;
+    color: #202e55;
+}
+.boton{
+    position: absolute;
+    left: -100%;
+    top: 85%;
+    width: 100%;
+    background-color:  #005b88;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    transition: 0.7s ;
+    overflow: visible;
+}
+.huevo {
+    width: 150px;
+    height: 150px;
+    background-color:#005b88;
+    overflow: hidden;
+}
+.boton>a{
+    text-decoration: none;
+    color: white;
+}
+.footer-client{
+    padding: 15px;
+    color: white;
+    background-color: #202e55;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+}
+.ofrecemos{
+    color: white;
+    text-decoration: none;
+}
+.ofrecemos:hover{
+    color: white;
+}
+.div-footer{
+    width: 100%;
+    margin-left: 7%;
+    padding: 5px;
+}
+.cont{
+    text-decoration: none;
+    color: white;
+}
+.cont:hover{
+    color: white;
+}
+.seccion-fondo{
+    width: 100%;
+    height: 500px;
+    background-image: url("https://aboga2.eu/wp-content/uploads/2021/11/Abogados-en-Alcala%CC%81-de-Henares.jpg");
+    background-size: cover;
+}
+.secion-precios{
+    margin: 15px;
+    padding: 5px;
+    width: 100%;
+    height: 210px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.titulito{
+    background-color: white;
+    color:  #005b88;
+    text-align: center;
+    border: 1px solid white;
+    width: 100%;
+    height: 40px;
+    font-size: 25px;
+}
+.dinerito{
+    color: white;
+    text-align: center;
+    width: 400px;
+    height: 80px;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    font-size: 28px;
+    background-color: #005b88ce;
+    
+}
+.footercito{
+    width: 100%;
+    height: 20px;
+    background-color: white;
+    border: 1px solid white;
+}
+.nosotros{
+    text-align: center;
+    color:#005b88;
+    width: 100%;
+    padding: 10px;
+}
+hr{
+    width: 50%;
+    margin-left: 25%;
+    color: white;
+    height: 5px;
+}
+.precios{
+    width: 100%;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.575);
+}
+
+.tarifas{
+    text-align: center;
+    color: white;
+    width: 100%;
+    padding: 7px;
+}
+.precios-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.servicios{
+    width: 100%;
+    height: 300px;
+    background-image: url("https://hipermediaciones.files.wordpress.com/2016/07/libros.jpg");
+    background-size: cover;
+}
+.equis{
+    color: white;
+}
+.sucess{
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    color: white;
+    background-color:#068dd1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    z-index: 999;
+}
+.icono{
+    width: 110px;
+    height: 80px;
+}
+@media (max-width: 1000px){
+    .logoD{
+        display: none;
+    }
+    .text-del{
+        top: -10px;
+    }
+    .text-area{
+        width: 200px;
+        margin-left: 60px;
+    }
+    input{
+        width: 200px;
+    }
+}
+@media (max-width: 500px){
+    .text-area{
+        width: 100px;
+        margin-right: 60px;
+    }
+    input{
+        width: 100px;
+    }
+    button{
+        width: 100px;
+        margin-right: 30px;
+    }
+}

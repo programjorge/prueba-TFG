@@ -1,0 +1,604 @@
+body{
+    background-image: url("https://fondosmil.com/fondo/72862.jpg");
+    background-position: top;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.tabla{
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    align-items: center;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 500px;
+    margin-left: 10%;
+    margin-right: 10%;
+    /* height: 500px; */
+}
+.tabla::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+.tabla::-webkit-scrollbar:y {
+    width:10px;
+}
+.tabla::-webkit-scrollbar-button:increment,.contenedor::-webkit-scrollbar-button {
+    display: none;
+} 
+.tabla::-webkit-scrollbar:horizontal {
+    height: 10px;
+}
+.tabla::-webkit-scrollbar-thumb {
+    background-color: #8b6f39;
+    border-radius: 20px;
+    border: 2px solid #cea454;
+}
+
+.tabla::-webkit-scrollbar-track {
+    border-radius: 10px;  
+}
+table{
+    margin-left: 10px;
+    text-align: center;
+    border: 1px solid #cea454;
+    width: 95%;
+    backdrop-filter: blur(6px);
+    background-color: rgba(255, 255, 255, 0.459);
+    position: relative;
+}
+.caract{
+    font-weight: bold;
+}
+.registros{
+    display: flex;
+    flex-wrap: wrap;
+}
+.caract>span{
+    font-weight: normal;
+}
+.empleado{
+
+    background-color: rgba(255, 255, 255, 0.459);
+    width: auto;
+    padding: 10px 10px 10px 10px;
+    border-radius: 13px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.foto{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+th{
+    background-color: #cea454;
+}
+.logo{
+    width: 65px;
+    height: 65px;
+    background-image: url("logo.jpg");
+    border-radius: 50%;
+    background-size:auto;
+}
+.c-submenu{
+    color: #cea454;
+    margin: 0;
+    padding: 0;
+}
+.admin{
+    border-bottom: 3px solid white;
+}
+svg:hover{
+    cursor: pointer;
+    color: white;
+}
+.extrasno{
+    overflow: hidden;
+    width:0;
+    height:0;
+    /* transition: all 0.5s ease-in; */
+}
+.iconos{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    border-radius: 5px;
+}
+.extrassi{
+    background: rgb(223,176,87);
+    background: linear-gradient(90deg, rgba(216, 175, 98, 0.795) 26%, #f7f43bc5 100%);
+    padding: 10px 10px 10px 10px;
+    border-radius: 8px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    /* align-items: flex-start; */
+    width:100%;
+    height:100%;
+    transition: all 1s ease-in;
+}
+.datos{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: 5px;
+    text-align: start;
+    justify-content: flex-start;
+}
+.cerrar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 7px;
+    color: red;
+    width: 35px;
+    text-align: end;
+    height: 35px;
+    /* background-color: rgba(255, 255, 255, 0.664); */
+    padding: 5px 5px 5px 5px;
+
+}
+.search{
+    margin-left: 25%;
+}
+.search>button{
+    background-color: #8b6f39;
+    color:#cea454;
+}
+.search>button:hover{
+    background-color: #8b6f39;
+    color:white;
+}
+.search>input{
+    border-radius: 13px;
+    border-color:#cea454;
+}
+.linea-botones{
+    display: flex;
+    flex-direction: row;
+}
+.rojo{
+    color: red;
+}
+.admin:hover{
+    border-bottom: 3px solid #cea454;
+}
+.editamos{
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 13px;
+    background-color: rgb(93, 146, 190);
+}
+h4{
+    background-color: rgb(255, 255, 255);
+    width: 50%;
+    margin-left: 24%;
+    border: 2px solid #cea454;
+    margin-right: 24%;
+    text-align: center;
+    margin-bottom: 0;
+    border-radius: 13px 13px 0 0;
+    padding: 10px;
+    backdrop-filter: blur(6px);
+    z-index: 999;
+
+}
+h5{
+    background-color: rgb(255, 255, 255);
+    width: 50%;
+    margin-left: 24%;
+    border: 2px solid #cea454;
+    margin-right: 24%;
+    text-align: center;
+    margin-bottom: 0;
+    border-top: none;
+    padding: 10px;
+    backdrop-filter: blur(6px);
+    z-index: 999;
+}
+.inputs{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+.inputs>label{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 45%;
+}
+.error-bus{
+    width: 95.05%;
+    margin-left: 10px;
+}
+.inputs>select{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 45%;
+}
+.inputs>input{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 13px;
+    width: 45%;
+}
+.sucess{
+    text-align: center;
+    width: 100%;
+    color: white;
+    background-color: rgb(70, 139, 70);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.equis{
+    color: rgb(189, 14, 14);
+    background-color: white;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    padding: 2px 2px 2px 2px;
+}
+select{
+    border-radius: 13px !important;
+}
+.btn{
+    margin-bottom: 10px;
+}
+.editar{
+    color: green;
+    height: 25px;
+    width: 25px;
+    
+}
+.add{
+    color: green;
+    height: 25px;
+    width: 25px;
+    text-align: end;
+}
+.custom-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.377);
+    width: 50%;
+    margin-left: 24%;
+    border: 2px solid #cea454;
+    margin-right: 24%;
+    border-radius: 0 0 13px 13px;
+    backdrop-filter: blur(6px);
+    font-weight: bold;
+    border-top: none;
+    box-shadow: 0px 10px 10px -10px rgba(0, 0, 0, 0.288);
+    z-index: 4;
+    /* border-top: #cea454; */
+    
+}
+.sin-datos{
+    font-weight: bold;
+}
+.error{
+    color: red;
+}
+.input-blog{
+    width: 100%;
+    padding: 5px;
+    border-radius: 13px;
+}
+.text-blog{
+    margin-top: 5px;
+    width: 100%;
+    padding: 5px;
+    border-radius: 13px;
+    height: 200px;
+}
+.text-blog-res{
+    width: 100%;
+    height: 100px ;
+    border-radius: 8px;
+}
+.pregunta{
+    display: none;
+    background-color: rgba(255, 255, 255, 0.377);
+    width: 90%;
+    margin-top: 15px;
+    margin-left: 5%;
+    padding: 10px;
+    padding-top: 15px;
+    border: 1px solid #cea454;
+    border-radius: 5px;
+    
+}
+#ver_mas{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 5px;
+    margin-left: 24%;
+    width: 50%;
+    border-color: #cea454;
+    border-radius: 8px;
+}
+#ver_mas>i{
+    color: #cea454;
+}
+.div{
+    border-radius: 8px;
+    background-color: white;
+}
+.noticia>div{
+    margin-top: 20px;
+}
+
+.noticia{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.noticia>div{
+    display: flex;
+    flex-direction: row;
+    
+}
+.news-cliente{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 300px;
+    padding-right: 300px;
+    background-image: url("https://static2.elnortedecastilla.es/www/multimedia/202010/23/media/cortadas/NF0SQPX1-k0rE-U120556352307B4E-624x385@El%20Norte.jpg");
+    text-decoration: none;
+    background-size:cover;
+    background-repeat: no-repeat;
+    color:#8b6f39;
+    font-weight: bold;
+    font-size: large;
+    border-radius: 10px;
+}
+.news-cliente>a{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+.news-cliente:hover{
+    color: black;
+}
+#social{
+    margin-top: 50px;
+    margin-left: 5px;
+}
+.news-penal{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 300px;
+    padding-right: 300px;
+    background-image: url("https://franciscohernandez2.files.wordpress.com/2016/11/derecho-penal.jpg");
+    text-decoration: none;
+    background-size:cover;
+    background-repeat: no-repeat;
+    color:#8b6f39;
+    font-weight: bold;
+    font-size: large;
+    border-radius: 10px;
+}
+.news-penal>a{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+.news-penal:hover{
+    color: black;
+}
+#penal{
+    margin-top: 50px;
+    margin-left: 5px;
+}
+.news-laboral{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 290px;
+    padding-right: 290px;
+    background-image: url("https://www.madridlicencias.com/blog/wp-content/uploads/Ruido-Obras.jpg");
+    text-decoration: none;
+    background-size:cover;
+    background-repeat: no-repeat;
+    color:#8b6f39;
+    font-weight: bold;
+    font-size: large;
+    border-radius: 10px;
+}
+.news-laboral>a{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+.news-laboral:hover{
+    color: black;
+}
+.bi-arrow-left-square-fill,.bi-arrow-right-square-fill{
+    font-size: 45px;
+    color: rgba(255, 255, 255, 0.555);
+}
+
+#laboral{
+    margin-top: 50px;
+    margin-left: 5px;
+}
+.casoHecho{
+    padding: 5px;
+    color: white;
+    background-color: rgb(35, 129, 35);
+    width: 100%;
+}
+.casoPendiente{
+    padding: 5px;
+    color: white;
+    width: 100%;
+    background-color: rgb(247, 51, 51);
+}
+
+.details{
+    background-color: rgba(35, 129, 35, 0);
+    border-style: none;
+    color: white;
+
+}
+.info-ca{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+}
+.info-ca>span{
+    margin-top: 3px;
+}
+
+.box-day{
+    width: 80px;
+    height: 80px;
+    background-color: rgba(255, 255, 255, 0.555);
+    border: 0.5px solid #7e6435 ;
+}
+.header-col{
+    padding: 10px;
+    background-color:#cea454 ;
+}
+.header-calendar0{
+    background-color: rgba(255, 255, 255, 0.555);
+    padding: 10px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.box-dayoff {
+    background-color: rgba(128, 128, 128, 0.404);
+    width: 80px;
+    height: 80px;
+    border: 0.5px solid #7e6435;
+}
+.news-supremo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 240px;
+    padding-right: 240px;
+    background-image: url("https://www.economistjurist.es/wp-content/uploads/sites/2/2022/04/6F66BB4NOBLRNHBA5624MMFAGM.jpg");
+    text-decoration: none;
+    background-size:cover;
+    background-repeat: no-repeat;
+    color:#8b6f39;
+    font-weight: bold;
+    font-size: large;
+    border-radius: 10px;
+    text-align: center;
+}
+.news-supremo>a{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+.news-supremo:hover{
+    color: black;
+}
+#supremo{
+    margin-top: 50px;
+    margin-left: 5px;
+}
+.titulo{
+    background-color: white;
+    padding: 5px;
+    padding-right: 10px;
+    padding-top: 10px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+.texto{
+    background-color: white;
+    padding: 5px;
+    margin-top: 10px;
+    border-bottom: 1px solid #cea454;
+}
+.btn-center{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.seguridad{
+    top: 0px;
+    left: 0px;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(128, 128, 128, 0.479);
+}
+.ventana{
+    background-color:#cea454;
+    color: white;
+    width: 250px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40%;
+    margin-top: 10%;
+    border-radius: 8px;
+    box-shadow: 5px 5px 40px black;
+}
+.ventana>input{
+    border-radius: 8px;
+}
+.ventana>button{
+    margin-top: 10px;
+}
+/* EXTRA RESPONSIVE */
+@media (max-width: 900px) {
+    .custom-form {
+        margin: 0;
+        width: 100%;
+    }
+    .form-label{
+        margin-right: 10px
+    }
+    h4{
+        margin: 0;
+        width: 100%;
+    }
+    h5{
+        margin: 0;
+        width: 100%;
+    }
+    .tabla{
+        margin-left: 0;
+        width: 100%;
+    }
+}
