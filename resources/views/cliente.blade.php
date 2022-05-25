@@ -182,7 +182,7 @@
                     </svg>
                     <input type="text" placeholder = "Email" name = "email" required class = "ms-3">
                 </div>
-                <textarea name="" id="" cols="80" rows="3" placeholder = "Mensaje" class = "mt-2 text-area"></textarea>
+                <textarea name="" id="" cols="60" rows="3" placeholder = "Mensaje" class = "mt-2 text-area"></textarea>
                 <div>
                     <button class = "ms-4">
                         <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-envelope-check " viewBox="0 0 16 16">
